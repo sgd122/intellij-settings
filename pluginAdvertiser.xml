@@ -172,8 +172,9 @@
         <entry key="*.csv">
           <value>
             <plugin>
-              <option name="myPluginId" value="net.seesharpsoft.intellij.plugins.csv" />
-              <option name="myPluginName" value="CSV Plugin" />
+              <option name="myPluginId" value="com.intellij.database" />
+              <option name="myPluginName" value="Database Tools and SQL" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -496,8 +497,9 @@
         <entry key="*.ignore">
           <value>
             <plugin>
-              <option name="myPluginId" value="mobi.hsz.idea.gitignore" />
-              <option name="myPluginName" value=".ignore" />
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -1353,8 +1355,9 @@
         <entry key="*.tsv">
           <value>
             <plugin>
-              <option name="myPluginId" value="net.seesharpsoft.intellij.plugins.csv" />
-              <option name="myPluginName" value="CSV Plugin" />
+              <option name="myPluginId" value="com.intellij.database" />
+              <option name="myPluginName" value="Database Tools and SQL" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -1881,7 +1884,7 @@
                 <map>
                   <entry key="ChromiumRemoteDebugType">
                     <value>
-                      <FeaturePluginData displayName="Node.js/Chrome에 연결" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
+                      <FeaturePluginData displayName="Attach to Node.js/Chrome" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
                     </value>
                   </entry>
                   <entry key="CompoundRunConfigurationType">
@@ -1891,12 +1894,12 @@
                   </entry>
                   <entry key="DatabaseScript">
                     <value>
-                      <FeaturePluginData displayName="데이터베이스 스크립트" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
+                      <FeaturePluginData displayName="Database Script" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
                     </value>
                   </entry>
                   <entry key="DjangoTestsConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="Django 테스트" pluginName="Python" pluginId="Pythonid" />
+                      <FeaturePluginData displayName="Django tests" pluginName="Python" pluginId="Pythonid" />
                     </value>
                   </entry>
                   <entry key="FirefoxRemoteDebugType">
@@ -1906,7 +1909,7 @@
                   </entry>
                   <entry key="HttpClient.HttpRequestRunConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="HTTP 요청" pluginName="HTTP Client" pluginId="com.jetbrains.restClient" />
+                      <FeaturePluginData displayName="HTTP Request" pluginName="HTTP Client" pluginId="com.jetbrains.restClient" />
                     </value>
                   </entry>
                   <entry key="JavaScriptTestRunnerJest">
@@ -1921,7 +1924,7 @@
                   </entry>
                   <entry key="JavascriptDebugType">
                     <value>
-                      <FeaturePluginData displayName="JavaScript 디버그" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
+                      <FeaturePluginData displayName="JavaScript Debug" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
                     </value>
                   </entry>
                   <entry key="NodeJSConfigurationType">
@@ -1946,27 +1949,27 @@
                   </entry>
                   <entry key="PyRemoteDebugConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="Python 디버그 서버" pluginName="Python" pluginId="Pythonid" />
+                      <FeaturePluginData displayName="Python Debug Server" pluginName="Python" pluginId="Pythonid" />
                     </value>
                   </entry>
                   <entry key="Python.AppEngineServer">
                     <value>
-                      <FeaturePluginData displayName="앱 엔진 서버" pluginName="Pythonid" pluginId="Pythonid" />
+                      <FeaturePluginData displayName="App Engine server" pluginName="Pythonid" pluginId="Pythonid" />
                     </value>
                   </entry>
                   <entry key="Python.DjangoServer">
                     <value>
-                      <FeaturePluginData displayName="Django 서버" pluginName="Python" pluginId="Pythonid" />
+                      <FeaturePluginData displayName="Django Server" pluginName="Python" pluginId="Pythonid" />
                     </value>
                   </entry>
                   <entry key="Python.FlaskServer">
                     <value>
-                      <FeaturePluginData displayName="Flask 서버" pluginName="Python" pluginId="Pythonid" />
+                      <FeaturePluginData displayName="Flask server" pluginName="Python" pluginId="Pythonid" />
                     </value>
                   </entry>
                   <entry key="Python.PyramidServer">
                     <value>
-                      <FeaturePluginData displayName="Pyramid 서버" pluginName="Python" pluginId="Pythonid" />
+                      <FeaturePluginData displayName="Pyramid server" pluginName="Python" pluginId="Pythonid" />
                     </value>
                   </entry>
                   <entry key="PythonConfigurationType">
@@ -1986,7 +1989,7 @@
                   </entry>
                   <entry key="TSqltConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="tSQLt 테스트" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
+                      <FeaturePluginData displayName="tSQLt Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
                     </value>
                   </entry>
                   <entry key="Tox">
@@ -1996,7 +1999,7 @@
                   </entry>
                   <entry key="UtPlSqlConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="utPLSQL 테스트" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
+                      <FeaturePluginData displayName="utPLSQL Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
                     </value>
                   </entry>
                   <entry key="docker-deploy">
@@ -2006,7 +2009,7 @@
                   </entry>
                   <entry key="docs">
                     <value>
-                      <FeaturePluginData displayName="Python 문서" pluginName="Pythonid" pluginId="Pythonid" />
+                      <FeaturePluginData displayName="Python docs" pluginName="Pythonid" pluginId="Pythonid" />
                     </value>
                   </entry>
                   <entry key="js.build_tools.grunt">
@@ -2031,7 +2034,7 @@
                   </entry>
                   <entry key="tests">
                     <value>
-                      <FeaturePluginData displayName="Python 테스트" pluginName="Python" pluginId="Pythonid" />
+                      <FeaturePluginData displayName="Python tests" pluginName="Python" pluginId="Pythonid" />
                     </value>
                   </entry>
                 </map>
@@ -2046,7 +2049,7 @@
                 <map>
                   <entry key="buildout-python">
                     <value>
-                      <FeaturePluginData displayName="빌드아웃 지원" pluginName="Python" pluginId="Pythonid" />
+                      <FeaturePluginData displayName="Buildout Support" pluginName="Python" pluginId="Pythonid" />
                     </value>
                   </entry>
                   <entry key="django">
@@ -2056,7 +2059,7 @@
                   </entry>
                   <entry key="google-appengine-python">
                     <value>
-                      <FeaturePluginData displayName="Google 앱 엔진(Python)" pluginName="Pythonid" pluginId="Pythonid" />
+                      <FeaturePluginData displayName="Google App Engine (Python)" pluginName="Pythonid" pluginId="Pythonid" />
                     </value>
                   </entry>
                 </map>
