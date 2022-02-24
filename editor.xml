@@ -5,6 +5,34 @@
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
+    <pattern useCustomColors="true" pattern="\bfixme\b.*">
+      <option name="FOREGROUND" value="ff0a2d" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="EFFECT_COLOR" value="282c34" />
+    </pattern>
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bANCHOR\b.*">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bNOTE\b.*">
+      <option name="FOREGROUND" value="ffb300" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bREVIEW\b.*">
+      <option name="FOREGROUND" value="64dd17" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bSECTION\b.*">
+      <option name="FOREGROUND" value="896afc" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bLINK\b.*">
+      <option name="FOREGROUND" value="2ecc71" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bSTUB\b.*">
+      <option name="FOREGROUND" value="ba68c8" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
   </component>
 </application>
